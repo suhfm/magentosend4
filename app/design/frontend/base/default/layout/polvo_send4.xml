@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<sales_order_view>
+	    <reference name="sales.order.info">
+	    	<!--<block type='core/template' name='infosend4' template="polvo_send4/infosend4.phtml"  >-->
+	        <action method="setTemplate">
+	            <template>polvo_send4/sales/order/infosend4.phtml</template>
+	        </action> 	        
+	        <!--<block type="polvo_send4/template" as="infosend4" name="infosend4" before="-">
+            </block>-->
+	    </reference>
+	</sales_order_view>
+</layout>

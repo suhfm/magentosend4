@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <carriers>
+            <groups>
+                <polvo_send4 translate="label">
+                    <label>Polvo Send4</label>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Habilitado</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <title translate="label">
+                            <label>Nome método</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </title>                        
+                        <client_id_send4 translate="label">
+                            <label>Client ID</label>
+                            <comment>ID Client Send4</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </client_id_send4>
+                        <client_secret_send4 translate="label">
+                            <label>Client Secret</label>
+                            <comment>Client Secret Send4</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>41</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </client_secret_send4>   
+                        <quantidade_dots_send4 translate="label"> 
+                            <label>Quantidade de Pontos</label>
+                            <comment>Quantidade de Pontos de retirada visíveis no carrinho</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>42</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>                    
+                        </quantidade_dots_send4>
+                        <ambiente_api_send4 translate="label"> 
+                            <label>Api</label>
+                            <comment>Api Send4</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>42</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>                    
+                        </ambiente_api_send4>
+                        <preco_fixo_send4 translate="label"> 
+                            <label>Preço Frete</label>
+                            <comment>Preço Fixo (Ex: 20.57)</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>43</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>                    
+                        </preco_fixo_send4>
+                    </fields>
+                </polvo_send4>
+            </groups>
+        </carriers>
+    </sections>
+</config>
